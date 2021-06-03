@@ -1,0 +1,9 @@
+SET PGBIN=C:\Program Files\PostgreSQL\11\bin
+SET PGDATABASE=
+SET PGHOST=
+SET PGPORT=
+SET PGUSER=
+SET PGPASSWORD=
+
+CALL "%PGBIN%\pg_restore.exe" -d %PGDATABASE% %1
+timeout 10
